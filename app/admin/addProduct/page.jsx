@@ -4,7 +4,7 @@ import axios from "axios";
 import Image from "next/image";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import BlogEditor from "@/components/BlogEditor"; // ✅ import editor
+import BlogEditor from "@/Components/BlogEditor"; // ✅ import editor
 
 const page = () => {
   const [image, setImage] = useState(false);
